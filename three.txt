@@ -31,4 +31,4 @@ git checkout ブランチ名　(ブランチには親ブランチ名を)
 git merge ブランチ名　(現在のブランチにブランチ名を適用)
 git push
 
-卒論はTxtfileで書きgithubにあげる
+卒論はtxtfileで書きgithubにあげる
