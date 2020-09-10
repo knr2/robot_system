@@ -1,0 +1,34 @@
+第三回の復習
+
+1.githubをubuntu上で使用する
+
+アカウント指定
+git clone URL (URLの部分はgithubのリポジトリ -> Code -> HTTPSででてきたURLを貼り付け)
+cd リポジトリ名　(リポジトリ名は自分のファイル名)
+
+
+up法
+git add ファイル名
+git status
+git commit -m "変更時はその説明"
+git push origin master (この時githubでのユーザー名とパスワードを聞かれる)
+
+DL法
+git pull
+
+2.ブランチ(コートの改変をする際に元のコードを残しておきたいときに使用)
+
+確認
+git branch
+
+作成
+git checkout -b ブランチ名 (ブランチ名には新規子ブランチ名を)
+
+親ブランチに戻る
+git checkout ブランチ名　(ブランチには親ブランチ名を)
+
+子ブランチの改変を親にも適用
+git merge ブランチ名　(現在のブランチにブランチ名を適用)
+git push
+
+卒論はTxtfileで書きgithubにあげる
